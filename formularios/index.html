@@ -4,8 +4,17 @@
 	<head>
 		<title>Envio de dados</title>
 		<meta charset="utf-8">
+		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="jquery.maskedinput.js"></script>
 	</head>
-
+	
+	<script> 
+		$(document).ready(function(){			
+		$("#txtData").mask("99/99/9999");
+		$("#txtCPF").mask("999.999.999-99");		
+		});
+	</script>
+		
 	<body>	
 		<form method="post" name="formCadastro" action="cadCliente.php">
 
@@ -13,12 +22,12 @@
 		<table width="100%">
 			<tr>
 				<th width="15%">Nome</th>
-				<td width="85%"><input type="text" name="txNome"></td>
+				<td width="85%"><input type="text" name="txtNome"></td>
 			</tr>
 
 			<tr>
 				<th>CPF</th>
-				<td><input type="text" name="txtCPF" maxlenght="14"></td>
+				<td><input type="text" name="txtCPF" id="txtCPF" maxlenght="14"></td>
 			</tr>
 
 			<tr>
@@ -63,7 +72,7 @@
 
 			<tr>
 				<th>Data de Nascimento</th>
-				<td><input type="text" name="txtData"></td>
+				<td><input type="text" name="txtData" id="txtData"></td>
 			</tr>
 
 			<tr>
