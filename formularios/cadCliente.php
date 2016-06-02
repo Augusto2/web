@@ -48,9 +48,28 @@
 					echo "CPF Incorreto<br>";					
           		 }
         	} 
-        $camposOK = true;
-   		}	
+		$camposOK = true;
+   		}
+   		
+   		if($arquivo["error"] != 0 || $arquivo["size"] == 0){
+   			echo "Erro no envio do arquivo! <br>";
+   			$camposOK = false;
+   		}
+   		
+   		if($arquivo["size"] > 100000){
+   			echo "Tamanho maior que o permitido!(máximo 10MB) <br>";
+   			$camposOK = false;
+   		}
 
+		if(($arquivo["type"] != "image/gif") &&
+		($arquivo["type"] != "image/jpeg") &&
+		($arquivo["type"] != "image/jpg") &&
+		($arquivo["type"] != "image/png") &&
+		($arquivo["type"] != "image/bmp")){
+   			echo "Formato de arquivo não aceito! (Utilize os formatos: bmp; gif; jpeg; jpg; png) <br>";
+   			$camposOK = false;
+   		}
+   		
 		$dataD = substr($dtNasc, 0, 2);
 		$dataM = substr($dtNasc, 3, 2);
 		$dataA = substr($dtNasc, 6, 4);
