@@ -9,6 +9,7 @@
 	<?php
 		echo "<h1>Os dados informados são:</h1>";
 		$nome = $_POST["txtNome"];
+		$arquivo = $_FILES["txtFoto"];
 		$ender = $_POST["txtEndereco"];
 		$cpf = $_POST["txtCPF"];
 		$estado = $_POST["listEstados"];
