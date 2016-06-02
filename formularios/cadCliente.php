@@ -122,6 +122,12 @@
 			$camposOK = false;
 		}
 
+		$file_src = '../../tmp/'.$_FILES['txtFoto']['name'];
+		if(!move_uploaded_file($_FILES['txtFoto']['tmp_name'],$file_src)){
+			echo "Erro ao mover o arquivo! <br>";
+			$camposOK = false;
+		}
+		
 		if($camposOK){
 			echo "<table border='0' cellpadding='5'>";
 			echo "<tr><td><img height='120' width='120' src='$file_src'></td></tr>"
