@@ -124,6 +124,7 @@
 
 		if($camposOK){
 			echo "<table border='0' cellpadding='5'>";
+			echo "<tr><td><img height='120' width='120' src='$file_src'></td></tr>"
 			echo "<tr><td>Nome:</td><td><b>$nome</b></td></tr>";
 			echo "<tr><td>CPF:</td><td><b>$cpf</b></td></tr>";
 			echo "<tr><td>Endereço:</td><td><b>$ender</b></td></tr>";
