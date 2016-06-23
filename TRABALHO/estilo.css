@@ -11,6 +11,7 @@ position: relative;
 .menu {
 background: #009ACD;    
 padding: 2px; 
+padding-bottom: 3px; 
 text-shadow: black 0.1em 0.1em 0.2em;
 } 
 .menu a {
