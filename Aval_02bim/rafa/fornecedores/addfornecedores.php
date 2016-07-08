@@ -23,7 +23,7 @@
 	$stmt->bindParam(':dataFundacao',$fornecedor->getDataFundacao());
 	$stmt->bindParam(':email',$fornecedor->getEmail());
 	if($stmt->execute()){
-		header ('Location: ../index.html');
+		header ('Location: http://localhost/rafa/index.html');
 	}else{
 		echo "Erro ao cadastrar!!";
 		print_r( $stmt->errorInfo());

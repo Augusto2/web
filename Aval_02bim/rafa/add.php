@@ -24,7 +24,7 @@
 	$stmt->bindParam(':dataCadastro' ,$cliente->getDataCadastro());
 	$stmt->bindParam(':email' ,$cliente->getEmail());
 	if($stmt->execute()){
-		header ('Location: index.html');
+		header ('Location: http://localhost/rafa/index.html');
 	}else{
 		echo "Erro ao cadastrar!!";
 		print_r( $stmt->errorInfo());

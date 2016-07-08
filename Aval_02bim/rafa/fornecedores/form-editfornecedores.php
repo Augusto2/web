@@ -47,7 +47,7 @@
       <link rel="stylesheet" href="assets/css/owl.carousel.css">
       <!-- Template main Css -->
       <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="estilo.css">
+      <link rel="stylesheet" href="http://localhost/rafa/estilo.css">
 
       	<!-- Modernizr -->
       	<script src="assets/js/modernizr-2.6.2.min.js"></script>

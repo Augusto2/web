@@ -30,7 +30,7 @@
       <link rel="stylesheet" href="assets/css/owl.carousel.css">
       <!-- Template main Css -->
       <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="estilo.css">
+      <link rel="stylesheet" href="http://localhost/rafa/fornecedores/estilo.css">
 
       	<!-- Modernizr -->
       	<script src="assets/js/modernizr-2.6.2.min.js"></script>
@@ -58,7 +58,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html" contenteditable="false"><img src="assets/images/sadaka-logo.png" alt=""></a>
+              <a class="navbar-brand" href="http://localhost/rafa/index.html" contenteditable="false"><img src="assets/images/sadaka-logo.png" alt=""></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse pull-right">
               <ul class="nav navbar-nav">

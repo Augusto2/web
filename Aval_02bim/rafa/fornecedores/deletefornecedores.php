@@ -16,7 +16,7 @@
 	$stmt= $PDO->prepare($sql);
 	$stmt->bindParam( ':id', $id , PDO::PARAM_INT);
 	if($stmt->execute()){
-		header('Location:../index.html') ;
+		header('Location: http://localhost/rafa/index.html') ;
 	}else{
 		echo "Erro ao excluir";
 		print_r($stmt->errorInfo());

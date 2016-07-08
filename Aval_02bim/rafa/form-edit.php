@@ -25,7 +25,7 @@
  	}
  	$dataOK=dateConvert($cliente['dataCadastro']);
  ?>
- <! DOCTYPE html >
+<! DOCTYPE html >
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
@@ -43,7 +43,7 @@
       <link rel="stylesheet" href="assets/css/owl.carousel.css">
       <!-- Template main Css -->
       <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="estilo.css">
+      <link rel="stylesheet" href="http://localhost/rafa/estilo.css">
 
       	<!-- Modernizr -->
       	<script src="assets/js/modernizr-2.6.2.min.js"></script>
@@ -98,7 +98,7 @@
       </nav>
  </head>
  	<body>
-	<div class="variavel">
+	<div class="variavel" id="tudos">
  	<form method = "post" name="formAltera" action ="http://localhost/rafa/edit.php" enctype="multipart/form-data">
  	<h1> Edição de dados </h1>
  	<table width="100%">

@@ -20,7 +20,7 @@
       <link rel="stylesheet" href="assets/css/owl.carousel.css">
       <!-- Template main Css -->
       <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="estilo.css">
+      <link rel="stylesheet" href="http://localhost/rafa/estilo.css">
 
       	<!-- Modernizr -->
       	<script src="assets/js/modernizr-2.6.2.min.js"></script>
@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html" contenteditable="true"><img src="assets/images/sadaka-logo.png" alt=""></a>
+              <a class="navbar-brand" href="http://localhost/rafa/index.html" contenteditable="true"><img src="assets/images/sadaka-logo.png" alt=""></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse pull-right">
               <ul class="nav navbar-nav">
@@ -77,7 +77,7 @@
 	
 	<form method="post" name="formCadastro" action="http://localhost/rafa/fornecedores/addfornecedores.php" enctype="multipart/form-data">
 	<!--div class="conteudo"> -->
-	<div class="variavel">
+	<div class="variavel">	
 	<h1>Cadastro de Fornecedores</h1>
 			<table width="100%">
 				<tr>

@@ -28,7 +28,7 @@
 
  		if ($stmt->execute())
  		{
- 			header ('Location:clientes.php');
+ 			header ('Location: http://localhost/rafa/index.html');
  		}
  		else
  		{
